@@ -4,7 +4,7 @@ pipeline {
         stage('Git Clone') {
             steps {
 		            echo '1. 소스 코드 가져오는 중...'
-                git branch: 'main', url: ''
+                git branch: 'main', url: 'https://github.com/kimhanee2021-ux/spring-repo.git'
             }
         }
         stage('Build') {

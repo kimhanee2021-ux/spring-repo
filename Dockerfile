@@ -12,7 +12,7 @@ VOLUME /tmp
 
 #(# -plain.jar 생성을 막았으므로 build/libs/*.jar 로 깔끔하게 지정 가능)
 
-COPY build/libs/*.jar app.jar
+COPY build/libs/*-SNAPSHOT.jar app.jar
 
 #컨테이너가 8080번 포트를 사용할 것임을 명시 (Spring Boot 기본 포트 / 문서화 용도)
 
