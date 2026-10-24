@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 
 public class IndexController {
-  @Get iMapping("/")
+  @GetMapping("/")
   public String index() {
     return "Hello World!";
   }
